@@ -14,7 +14,8 @@ body {
 
 #image-card{
   float:left;
-  margin: 5px 0 0 0;
+  margin: 25px 0 10px 0;
+  margin-bottom: 0px;
 }
 
 .container {
@@ -60,17 +61,17 @@ h3 {
 
 /* header */
 
-#masthead {
-  /* position: fixed; */
+/* #masthead {
+  position: fixed;
   float:right;
   z-index: 99;
   width: 73%;
   margin: 5px 0 30px ; 
-  /* overflow: auto; */
+  overflow: auto;
   color: #ffffff;
   background: #ffffff;
   border-bottom: 2px solid #cccccc;
-}
+} */
 
 #logo {
   float: left;
@@ -87,13 +88,17 @@ h3 {
 }
 
 .navbar{
-  padding: 25px !important;
+  padding: 25px 0px 25px 0px !important;
+  max-width: 960px;
 }
+
 
 nav {
   width: 100%;
   margin-top: 25px;
+  margin-bottom: 25px;
 }
+
 
 nav a {
   display: inline-block;
@@ -121,9 +126,9 @@ footer {
   background: #666666;
   border-top: 8px solid #4aaaa5;
   height: 50px;
-  width:73%;
+  /* width:73%; */
   max-width: 960px;
-  float:right;
+  /* float:right; */
 }
 
 h3, h2 {
@@ -138,17 +143,18 @@ h3, h2 {
 #main-container {
   padding-top: 30px;
   min-height: calc(100vh - 70px);
+  margin-bottom:0px !important;
 }
 
 .main-section {
-  width: 73%;
+  /* width: 73%; */
   max-width: 960px;
   min-height:860px;
   padding: 30px;
   margin: 0 0 30px;
   background: #ffffff;
   border: 1px solid #dddddd;
-  float: right;
+
 }
 
 /* portfolio page */
@@ -157,7 +163,7 @@ h3, h2 {
   position: relative;
   float: left;
   width: 274px;
-  margin: 20px 0 25px;
+  margin: 30px;
   overflow: auto;
 }
 
@@ -235,4 +241,34 @@ input[type=submit] {
 
 .card-title{
   margin-bottom: 0px !important;
+}
+
+.col-lg-8, .col-lg-4{
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: auto;
+  padding-left: auto;
+}
+ .container-fluid, #image-card {
+  width: 100%;
+  margin-right: 0px; 
+  margin-left: 0px;
+} 
+
+#photo-card-div{
+  margin-top: 25px;
+}
+
+.lazy-image{
+  width: 100px;
+}
+
+.t-normal{
+font-size: 10px !important;
+}
+
+
+#ember4024 {
+  margin-top: 50px;
+  padding: 20px;
 }
